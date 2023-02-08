@@ -1,4 +1,5 @@
 {
+  "homepage:": "http://cakctus.github.io/react-hotelform",
   "name": "hotelform",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -35,6 +38,7 @@
   },
   "devDependencies": {
     "@types/react-date-range": "^1.4.4",
-    "@types/wojtekmaj__react-daterange-picker": "^3.4.1"
+    "@types/wojtekmaj__react-daterange-picker": "^3.4.1",
+    "gh-pages": "^5.0.0"
   }
 }
