@@ -1,0 +1,40 @@
+{
+  "name": "hotelform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
+    "@mui/x-date-pickers-pro": "^5.0.17",
+    "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@wojtekmaj/react-daterange-picker": "^4.2.0",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "redux-persist": "^6.0.0",
+    "rsuite": "^5.26.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/react-date-range": "^1.4.4",
+    "@types/wojtekmaj__react-daterange-picker": "^3.4.1"
+  }
+}
